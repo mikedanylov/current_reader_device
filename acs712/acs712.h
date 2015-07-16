@@ -17,8 +17,8 @@ Please refer to LICENSE file for licensing information.
 #define ACS712_SENSITIVITY30 0.066
 
 //setup sensitivity
-#define ACS712_SENSITIVITY ACS712_SENSITIVITY30
+#define ACS712_SENSITIVITY ACS712_SENSITIVITY5
 
-extern double acs712_getcurrent(double voltagein, double adcvref);
+double acs712_getcurrent(double voltagein, double adcvref);
 
 #endif
