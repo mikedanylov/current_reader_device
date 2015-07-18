@@ -8,6 +8,7 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
+-include adc/subdir.mk
 -include acs712/subdir.mk
 -include UART/subdir.mk
 -include subdir.mk
